@@ -1,0 +1,12 @@
+[flake8]
+# black compatibility
+max-line-length = 88
+
+extend-ignore =
+    E501, # line too long (black compatibility)
+    E203, # Whitespace before ':' (black compatibility)
+
+exclude =
+    .git,
+    .venv,
+    __pycache__,

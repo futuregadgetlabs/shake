@@ -1,0 +1,11 @@
+[tool.mypy]
+files = "."
+local_partial_types = true
+no_implicit_reexport = true
+pretty = true
+show_error_codes = true
+strict = true
+strict_optional = true
+use_fine_grained_cache = true
+warn_unreachable = true
+warn_unused_configs = true
